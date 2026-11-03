@@ -1,0 +1,6 @@
+interface:
+  display_name: "Auto SolidWorks Lite"
+  short_description: "根据需求创建可编辑 SolidWorks 模型并复核交付"
+  default_prompt: "使用 $auto-solidworks-lite，根据我的文字或图片需求创建可编辑模型，并完成保存重开、导出和结果复核。"
+policy:
+  allow_implicit_invocation: true
