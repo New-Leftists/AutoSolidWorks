@@ -1,0 +1,54 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated CAD deliverables and reports
+*.sldprt
+*.sldasm
+*.slddrw
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.step
+*.stp
+*.stl
+*.iges
+*.igs
+*.STEP
+*.STP
+*.STL
+*.IGES
+*.IGS
+*.3mf
+*.obj
+*.glb
+*.pdf
+*.PDF
+*.zip
+*.bak
+*.pem
+*.key
+*.pfx
+*.p12
+*.log
+review_report*.json
+output/
+outputs/
+work/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
